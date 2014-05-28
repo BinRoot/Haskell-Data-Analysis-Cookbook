@@ -1,0 +1,16 @@
+<thread>
+  <email>
+    <to>Databender</to>
+    <from>Princess</from>
+    <date>Thu Dec 18 15:03:23 EST 2014</date>
+    <subject>Joke</subject>
+    <body>Why did you divide sin by tan?</body>
+  </email>
+  <email>
+    <to>Princess</to>
+    <from>Databender</from>
+    <date>Fri Dec 19 3:12:00 EST 2014</date>
+    <subject>RE: Joke</subject>
+    <body>Just cos.</body>
+  </email>
+</thread>
