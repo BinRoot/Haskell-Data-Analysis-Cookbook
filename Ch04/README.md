@@ -2,7 +2,7 @@
 Chapter 4, **Data Hashing**, covers essential hashing functions such as **MD5**, **SHA256**, **GeoHashing**, and **perceptual hashing**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch04.png"/></a></p>
 

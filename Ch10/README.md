@@ -2,7 +2,7 @@
 Chapter 10, **Real-time Fugue**, incorporates streamed data interactions from **Twitter**, **Internet Relay Chat (IRC)**, and **sockets**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch10.png"/></a></p>
 

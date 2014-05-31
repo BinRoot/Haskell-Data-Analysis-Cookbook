@@ -2,7 +2,7 @@
 Chapter 7, **Statistics and Analysis**, begins the investigation of important data analysis techniques encompassing **regression algorithms**, **Bayesian networks**, and **neural networks**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch07.png"/></a></p>
 

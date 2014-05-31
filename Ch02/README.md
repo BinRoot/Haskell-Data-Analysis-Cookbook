@@ -2,7 +2,7 @@
 Chapter 2, **Integrity and Inspection**, explains the importance of cleaning data through recipes about **trimming whitespace**, **lexing**, and **regular expression matching**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch02.png"/></a></p>
 

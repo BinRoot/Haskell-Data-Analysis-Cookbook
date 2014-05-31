@@ -2,7 +2,7 @@
 Chapter 11, **Stunning Visuals**, comprises of sundry approaches to plotting graphs including **line charts**, **bar graphs**, **scatter plots**, and **D3.js visualizations**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch11.png"/></a></p>
 

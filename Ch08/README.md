@@ -2,7 +2,7 @@
 Chapter 8, **Clustering and Classification**, involves quintessential analysis methods involving **k-means clustering**, **hierarchical clustering**, **constructing decision trees**, and **implementing the k-Nearest Neighbors classifier**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch08.png"/></a></p>
 

@@ -2,7 +2,7 @@
 Chapter 5, **A Dance with Trees**, establishes an understanding of the tree data structure through examples including **tree traversals**, **balancing trees**, and **Huffman coding**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch05.png"/></a></p>
 

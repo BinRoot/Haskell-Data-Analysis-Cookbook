@@ -2,7 +2,7 @@
 Chapter 3, **The Science of Words**, introduces common string manipulation algorithms including **base conversions**, **substring matching**, and **computing the edit distance**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch03.png"/></a></p>
 

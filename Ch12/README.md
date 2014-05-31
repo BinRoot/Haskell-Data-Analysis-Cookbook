@@ -2,7 +2,7 @@
 Chapter 12, **The Final Exporting**, concludes the book with an enumeration of algorithms for exporting data to **CSV**, **JSON**, **HTML**, **MongoDB**, and **SQLite**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch12.png"/></a></p>
 

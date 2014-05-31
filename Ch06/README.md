@@ -2,7 +2,7 @@
 Chapter 6, **Graph Fundamentals**, manifests rudimentary algorithms for graphical networks such as **graph traversals**, **visualization**, and **maximal clique detection**.
 
 This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
-Refer to the book for step-by-step documentation.
+Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch06.png"/></a></p>
 
