@@ -6,8 +6,22 @@ Refer to the book for step-by-step documentation.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch02.png"/></a></p>
 
-# How to use
+# Recipes
+* **Code01**: Trimming excess whitespace
+* **Code02**: Ignoring punctuation and specific characters
+* **Code03**: Coping with unexpected or missing input
+* **Code04**: Validating records by matching regular expressions
+* **Code05**: Lexing and parsing an e-mail address
+* **Code06**: Deduplication of nonconflicting data items
+* **Code07**: Deduplication of conflicting data items
+* **Code08**: Implementing a frequency table using Data.List
+* **Code08**: Implementing a frequency table using Data.MultiSet
+* **Code10**: Computing the Manhattan distance
+* **Code11**: Computing the Euclidean distance
+* **Code12**: Comparing scaled data using the Pearson correlation coefficient
+* **Code13**: Comparing sparse data using cosine similarity
 
+# How to use
 ### Setting up the environment
 Install the [Haskell Platform](http://www.haskell.org/platform/).
 
