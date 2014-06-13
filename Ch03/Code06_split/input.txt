@@ -1,0 +1,5 @@
+first line
+second line
+words are split by space
+comma,separated,values
+or any delimiter you want
