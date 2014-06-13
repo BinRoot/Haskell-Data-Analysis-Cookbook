@@ -6,8 +6,20 @@ Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch04.png"/></a></p>
 
-# How to use
+# Recipes
+* **Code01**: Hashing a primitive data type
+* **Code02**: Hashing a custom data type
+* **Code03**: Running popular cryptographic hash functions
+* **Code04**: Running a cryptographic checksum on a file
+* **Code05**: Performing fast comparisons between data types
+* **Code06**: Using a high-performance hash table
+* **Code07**: Using Google's CityHash hash functions for strings
+* **Code08**: Computing Geohash for location coordinates
+* **Code09**: Using a bloom filter to remove unique items
+* **Code10**: Running MurmurHash, a simple but speedy hashing algorithm
+* **Code11**: Measuring image similarity with perceptual hashes
 
+# How to use
 ### Setting up the environment
 Install the [Haskell Platform](http://www.haskell.org/platform/).
 
