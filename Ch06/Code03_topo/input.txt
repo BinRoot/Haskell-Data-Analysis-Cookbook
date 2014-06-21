@@ -1,0 +1,6 @@
+understand Haskell
+do Haskell data analysis
+understand data analysis
+do Haskell data analysis
+do Haskell data analysis
+find patterns in big data
