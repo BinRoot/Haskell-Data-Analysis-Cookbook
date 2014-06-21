@@ -1,0 +1,35 @@
+git clone https://github.com/kawu/lexeme-clustering.git
+
+cd lexeme-clustering/
+
+cabal install
+
+emacs input.txt &
+
+mama
+papa
+sissy
+bro
+mother
+father
+grandfather
+grandmother
+uncle
+mommy
+daddy
+ma
+pa
+mom
+dad
+sister
+brother
+
+dist/build/lexeme-clustering/lexeme-clustering input.txt
+
+# Clustering
+bro, brother
+dad, daddy
+grandfather, grandmother
+father, ma, mama, mom, mommy, mother, pa, papa
+sissy, sister
+uncle

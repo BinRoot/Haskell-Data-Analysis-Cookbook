@@ -1,0 +1,17 @@
+$ cabal install sequor --prefix=`pwd`
+
+command: train
+template-file: data/all.features
+train-file: data/train.conll
+model-file: model
+learning rate: 0.1
+beam size: 10
+number of iteration: 5
+minimum feature frequency for label dictionary: 100
+path to heldout data: data/devel.conll
+use hasing instead of feature dictionary
+
+$ ./bin/sequor train data/all.features data/train.conll model --rate 0.1 --beam 10 --iter 5 --hash --heldout data/devel.conll
+
+$ ./bin/sequor predict model < data/test.conll > data/test.labels
+

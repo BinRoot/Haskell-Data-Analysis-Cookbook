@@ -6,8 +6,20 @@ Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch08.png"/></a></p>
 
-# How to use
+# Recipes:
+* **Code01**: Implementing the k-means clustering algorithm
+* **Code02**: Implementing hierarchical clustering
+* **Code03**: Using a hierarchical clustering library
+* **Code04**: Finding the number of clusters
+* **Code05**: Clustering words by their lexemes
+* **Code06**: Classifying the parts of speech of words
+* **Code07**: Identifying key words in a corpus of text
+* **Code08**: Training a parts of speech tagger
+* **Code09**: Implementing a decision tree classifier
+* **Code10**: Implementing a k-Nearest Neighbors classifier
+* **Code11**: Visualizing points using Graphics.EasyPlot
 
+# How to use
 ### Setting up the environment
 Install the [Haskell Platform](http://www.haskell.org/platform/).
 
