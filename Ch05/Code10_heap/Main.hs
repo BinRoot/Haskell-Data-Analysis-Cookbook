@@ -1,5 +1,6 @@
 import MinHeap
 
+-- Using a min-heap
 main = do
   let heap = foldr (\x -> insert x x) empty [11, 5, 3, 4, 8]
   print $ weights heap

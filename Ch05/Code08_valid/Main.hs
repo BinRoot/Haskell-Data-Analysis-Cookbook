@@ -15,6 +15,7 @@ someTree = root
         n3   = Node 3 Null Null
         n4   = Node 4 Null Null
 
+-- Verifying a binary search tree
 valid :: Ord t => Tree t -> Bool
 valid (Node v l r) = leftValid && rightValid
   where leftValid  = if notNull l then valid l && value l <= v else True

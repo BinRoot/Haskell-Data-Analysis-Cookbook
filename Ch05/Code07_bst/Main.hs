@@ -1,5 +1,6 @@
 import BSTree
 
+-- Using a binary search tree
 main = do
   let tree = single 5
   let nodes = [6,4,8,2,9]

@@ -4,6 +4,7 @@ data Tree a = Node { value :: a
             | Leaf 
             deriving Show
 
+-- Creating a binary tree
 main = do
   let n1 = Node { value = 1, left = Leaf, right = Leaf }
   let n2 = Node { value = 2, left = Leaf, right = Leaf }

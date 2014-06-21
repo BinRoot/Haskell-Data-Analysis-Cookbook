@@ -1,6 +1,7 @@
 import Data.Tree
 import Data.List (tails)
 
+-- Traversing a tree breadth-first
 main = do
   print $ breadthFirst someTree
   print $ add someTree

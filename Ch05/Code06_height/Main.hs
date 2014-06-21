@@ -1,6 +1,7 @@
 import Data.List (maximum)
 import Data.Tree
 
+-- Computing the height of a tree
 main = do
   print $ height someTree
 

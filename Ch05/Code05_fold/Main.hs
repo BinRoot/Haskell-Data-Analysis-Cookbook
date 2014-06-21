@@ -7,6 +7,7 @@ data Tree a = Node { value    :: a
             | Null
             deriving Show
 
+-- Folding through a tree
 main :: IO ()
 main = print $ add someTree
 

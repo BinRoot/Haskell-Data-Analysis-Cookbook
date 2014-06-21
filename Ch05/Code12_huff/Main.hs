@@ -7,6 +7,7 @@ import Data.Map (fromList, (!))
 
 freq xs = map (\x -> (head x, length x)) . group . sort $ xs
 
+-- Decoding a Huffman code
 main = do
   rsp <- simpleHTTP (getRequest "http://norvig.com/big.txt")
   html <- fmap (takeWhile isAscii) (getResponseBody rsp)

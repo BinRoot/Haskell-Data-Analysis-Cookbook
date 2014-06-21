@@ -1,6 +1,7 @@
 import Data.Tree (rootLabel, subForest, Tree(..))
 import Data.List (tails)
 
+-- Traversing a tree depth-first
 main = do
   print $ depthFirst someTree
   print $ add someTree
