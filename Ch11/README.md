@@ -6,8 +6,20 @@ Refer to the book for step-by-step explanations.
 
 <p align="center"><a href="http://haskelldata.com" target="_blank"><img src="http://haskelldata.com/images/ch11.png"/></a></p>
 
-# How to use
+# Recipes:
+* **Code01**: Plotting a line chart using Google's Chart API
+* **Code02**: Plotting a pie chart using Google's Chart API
+* **Code03**: Plotting bar graphs using Google's Chart API
+* **Code04**: Displaying a line graph using gnuplot
+* **Code05**: Displaying a scatter plot of two-dimensional points
+* **Code06**: Interacting with points in three-dimensional space
+* **Code07**: Visualizing a graph network
+* **Code08**: Customizing the looks of a graph network diagram
+* **Code09**: Rendering a bar graph in JavaScript using D3.js
+* **Code10**: Rendering a scatter plot in JavaScript using D3.js
+* **Code11**: Diagramming a path from a list of vectors
 
+# How to use
 ### Setting up the environment
 Install the [Haskell Platform](http://www.haskell.org/platform/).
 

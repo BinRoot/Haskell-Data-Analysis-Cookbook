@@ -1,0 +1,6 @@
+var sel0 = d3.select("#myChart").append("svg").attr("width",300.0).attr("height",300.0).style("background","#eef");
+var dat1 = [{x:0.0,y:290.0,width:57.0,height:10.0},{x:60.0,y:260.0,width:57.0,height:40.0},{x:120.0,y:200.0,width:57.0,height:100.0},{x:180.0,y:250.0,width:57.0,height:50.0},{x:240.0,y:245.0,width:57.0,height:55.0},{x:300.0,y:144.0,width:57.0,height:156.0},{x:360.0,y:220.0,width:57.0,height:80.0},{x:420.0,y:226.0,width:57.0,height:74.0},{x:480.0,y:260.0,width:57.0,height:40.0},{x:540.0,y:290.0,width:57.0,height:10.0}];
+sel0.selectAll("rect").data(dat1).enter().append("rect").attr("x",function(d){return d.x;}).attr("y",function(d){return d.y;}).attr("width",function(d){return d.width;}).attr("height",function(d){return d.height;}).style("fill","red");
+sel0.selectAll(".p").attr("transform","translate(25.0 25.0) scale(0.8333333333333334 0.8333333333333334) rotate(0.0)");
+var dat2 = [{x:25.0,y:25.0,width:250.0,height:250.0}];
+sel0.selectAll("rect").data(dat2).enter().append("rect").attr("x",function(d){return d.x;}).attr("y",function(d){return d.y;}).attr("width",function(d){return d.width;}).attr("height",function(d){return d.height;}).style("fill","none").attr("stroke","black").attr("stroke-width",1.0);
