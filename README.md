@@ -1,5 +1,7 @@
 # Haskell-Data-Analysis-Cookbook
-This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com). 
+This is the accompanying source code for [Haskell Data Analysis Cookbook](http://haskelldata.com).
+
+The latest source code is available on GitHub: https://github.com/BinRoot/Haskell-Data-Analysis-Cookbook
 
 # Summary
 ### [Chapter 1](/Ch01/README.md)
