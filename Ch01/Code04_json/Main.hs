@@ -16,7 +16,7 @@ instance FromJSON Mathematician where
                          <*> (v .: "born")
                          <*> (v .:? "died")
 
--- Parses a JSON object as a Methematician data type.
+-- Parses a JSON object as a Mathematician data type.
 main :: IO ()
 main = do
   input <- B.readFile "input.json"
