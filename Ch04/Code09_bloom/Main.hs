@@ -3,8 +3,6 @@ import Data.BloomFilter.Hash (cheapHashes)
 import Data.Map (Map, empty, insertWith)
 import qualified Data.Map as Map
 
-filt = BF.fromList (cheapHashes 3) 1024 ["foo", "bar", "quux"]
-
 -- Using a Bloom filter
 main = do
   let strands = ["GAT", "GATC", "CGT", "GAT", "GAT", "CGT", "GAT", "CGT"]
