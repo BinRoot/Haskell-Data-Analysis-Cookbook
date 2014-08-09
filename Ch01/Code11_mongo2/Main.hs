@@ -5,7 +5,7 @@ import Data.Maybe
 import qualified Data.Text as T
 import Data.List.Split
 
-mongoURI = "mongodb://user:pass@ds123.mongolab.com:53788/test"
+mongoURI = "mongodb://user:pass@ds035438.mongolab.com:35438/mydb"
 uri = fromJust $ parseURI mongoURI
 getUser = head $ splitOn ":" $ fromJust $ uriUserInfo uri
 getPass = last $ splitOn ":" $ fromJust $ uriUserInfo uri
@@ -19,7 +19,7 @@ getDb = T.pack $ tail $ uriPath uri
 main :: IO ()
 main = do
   let hostport = getHost ++ ":" ++ getPort
-  pipe <- runIOE $ connect (readHostPort hostport)
+  pipe <- connect (readHostPort hostport)
   e <- access pipe master getDb run
   close pipe
   print e
