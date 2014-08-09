@@ -1,9 +1,9 @@
-import Data.BloomFilter (fromListB, elemB, emptyB, insertB)
+import qualified Data.BloomFilter as BF
 import Data.BloomFilter.Hash (cheapHashes)
 import Data.Map (Map, empty, insertWith)
 import qualified Data.Map as Map
 
-filt = fromListB (cheapHashes 3) 1024 ["foo", "bar", "quux"]
+filt = BF.fromList (cheapHashes 3) 1024 ["foo", "bar", "quux"]
 
 -- Using a Bloom filter
 main = do
@@ -11,8 +11,8 @@ main = do
   print $ snd $ removeUniques strands
   
 removeUniques strands = foldl bloomMapCheck (emptyBloom, emptyMap) strands
-  where emptyBloom = emptyB (cheapHashes 3) 1024
+  where emptyBloom = BF.empty (cheapHashes 3) 1024
         emptyMap = empty :: Map String Int
         bloomMapCheck (b, m) x
-          | elemB x b = (b, insertWith (+) x 1 m)
-          | otherwise = (insertB x b, m)
+          | BF.elem x b = (b, insertWith (+) x 1 m)
+          | otherwise = (BF.insert x b, m)
