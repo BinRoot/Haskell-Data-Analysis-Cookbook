@@ -14,4 +14,4 @@ main = do
   -- ["comma","separated","values"]
   let ds = splitOn "an" $ ls !! 4
   print ds
-  -- ["or any d","limit","r you want"]
+  -- ["or ","y delimiter you w","t"]
