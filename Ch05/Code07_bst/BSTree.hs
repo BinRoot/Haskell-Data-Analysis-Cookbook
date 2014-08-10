@@ -6,12 +6,6 @@ data Tree a = Node { value :: a
             | Null 
             deriving (Eq, Show)
 
-valid :: Ord t => Tree t -> Bool
-valid (Node v l r) = leftValid && rightValid
-  where leftValid  = if notNull l then valid l && value l <= v else True
-        rightValid = if notNull r then valid r && v <= value r else True
-        notNull t = if t==Null then False else True
-
 single :: a -> Tree a
 single n = Node n Null Null
 
