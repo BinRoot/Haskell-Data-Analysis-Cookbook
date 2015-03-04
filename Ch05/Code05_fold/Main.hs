@@ -12,7 +12,7 @@ main :: IO ()
 main = print $ add someTree
 
 add :: Tree Integer -> Integer
-add = F.foldr1 (+)
+add = F.foldr (+) 0
 
 instance Foldable Tree where
     foldMap f Null = mempty

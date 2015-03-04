@@ -21,3 +21,4 @@ valid (Node v l r) = leftValid && rightValid
   where leftValid  = if notNull l then valid l && value l <= v else True
         rightValid = if notNull r then valid r && v <= value r else True
         notNull t = t/=Null
+valid Null = True
